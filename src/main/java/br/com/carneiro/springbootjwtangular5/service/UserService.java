@@ -13,4 +13,6 @@ public interface UserService {
     void delete(User user);
 
     Optional<User> find(Long id);
+
+    User find(String username);
 }

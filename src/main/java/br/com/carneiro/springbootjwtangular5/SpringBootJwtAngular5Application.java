@@ -7,6 +7,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
+/**
+ *  Basic JWT authentication
+ *
+ *  Reference:
+ *  http://www.devglan.com/spring-security/spring-boot-jwt-auth
+ */
 @SpringBootApplication
 public class SpringBootJwtAngular5Application {
 

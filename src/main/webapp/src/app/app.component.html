@@ -5,9 +5,9 @@
     <span class="align-center"></span>
     <span class="example-spacer"></span>
 
-    <button mat-button>About</button>
-    <button mat-button>Contact</button>
+    <button mat-button [routerLink]="['/user']">Users</button>
   </mat-toolbar-row>
 </mat-toolbar>
 
-<app-login></app-login>
+<router-outlet></router-outlet>
+
